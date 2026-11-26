@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "path_base": "repository_root",
+  "source_review_date": "2026-11-03",
+  "sources": [
+    {
+      "id": "K01",
+      "title": "标准柜组成与背板例外",
+      "location": "木作/06_工艺体系/标准柜工艺/71-001.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；通用工艺经验，不是本厂统一规格",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "K02",
+      "title": "平板门缝公差经验",
+      "location": "木作/06_工艺体系/门板工艺（一门到顶/分段门板）/191.1.27-001.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；仅平板门经验",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "K03",
+      "title": "活动层板与铰链遮挡",
+      "location": "木作/12_衣柜工艺/工艺/026-001.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；转录有错字，未将跨度经验转换成承载标准",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "K04",
+      "title": "暗抠手抽屉的内部高度",
+      "location": "木作/04_五金配件/铰链与滑轨/80-004.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；反弹抽为经验偏好",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "K05",
+      "title": "灯带槽与层板承重件冲突",
+      "location": "木作/06_工艺体系/细节处理（灯光/拉手/吊顶/分水器）/110.1.19-002.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；尺寸均为原文示例",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "K06",
+      "title": "驱动器与检修",
+      "location": "木作/06_工艺体系/细节处理（灯光/拉手/吊顶/分水器）/24-004.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；封板内为候选位置",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "K07",
+      "title": "护墙插片与门缝",
+      "location": "木作/06_工艺体系/柜体工艺/43-007.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；3毫米门缝及3/5毫米插片为示例",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "K08",
+      "title": "圆弧免漆与油漆分缝经验",
+      "location": "木作/06_工艺体系/柜体工艺/359.1.55-003.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；不能将无痕能力概括推广到全部材料和工厂",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "K09",
+      "title": "门墙柜通缝与开启干涉",
+      "location": "木作/04_产品系列/门墙柜/9-006.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；饰面增厚需核开启",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "K10",
+      "title": "周边关系与安装节点",
+      "location": "木作/07_测量与绘图/图纸规范/8-001.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；需表达台面、门套、顶地等交接",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "K11",
+      "title": "护墙CAD节点要求",
+      "location": "木作/07_测量与绘图/图纸规范/230.1.29-004.md",
+      "kind": "知识库原文",
+      "read_scope": "已读正文；需核工厂实际节点",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    },
+    {
+      "id": "L01",
+      "title": "厂家橱柜工艺与项目对照",
+      "location": null,
+      "kind": "厂家图的既有提取与对照",
+      "read_scope": "本轮复读记录；本轮未重开DWG，原件句柄见记录",
+      "reviewed_at": "2026-11-03",
+      "availability": "workspace_reference"
+    },
+    {
+      "id": "L02",
+      "title": "1102批量配件与加工验证记录",
+      "location": null,
+      "kind": "既有本机实测记录",
+      "read_scope": "本轮复读；拉篮仅原点放置，清单未显示",
+      "reviewed_at": "2026-11-03",
+      "availability": "workspace_reference"
+    },
+    {
+      "id": "L03",
+      "title": "房门隐形门与护墙学习记录",
+      "location": null,
+      "kind": "厂家图的既有提取与对照",
+      "read_scope": "本轮复读；图示对应存在邻近归类推断，非本轮重看原图",
+      "reviewed_at": "2026-11-03",
+      "availability": "workspace_reference"
+    },
+    {
+      "id": "L04",
+      "title": "厂家库护墙圆弧及批量入口",
+      "location": null,
+      "kind": "既有本机实测记录",
+      "read_scope": "本轮复读；仅菜单与面板，拉篮状态以L02较新记录为准",
+      "reviewed_at": "2026-11-03",
+      "availability": "workspace_reference"
+    },
+    {
+      "id": "L05",
+      "title": "后台研究与门板差异",
+      "location": null,
+      "kind": "既有本机实测记录",
+      "read_scope": "本轮复读相关段落；参数读取、几何复用不等于原生重算",
+      "reviewed_at": "2026-11-03",
+      "availability": "workspace_reference"
+    },
+    {
+      "id": "W01",
+      "title": "筑木官网：全局默认变量控制查询表",
+      "location": "https://archiwood.cn/wiki/quanju_bianliang",
+      "kind": "筑木官网历史文档",
+      "read_scope": "已读正文；2021-08-19修订，当前工厂版需复核",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W02",
+      "title": "筑木官网：模型转换五金配件",
+      "location": "https://archiwood.cn/wiki/how_to_quick_create_accessory",
+      "kind": "筑木官网历史文档",
+      "read_scope": "已读正文；2023-01-01修订，未在当前库复现",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W03",
+      "title": "筑木官网：对接机器提供资料说明",
+      "location": "https://archiwood.cn/wiki/dui_jie_ji_qi",
+      "kind": "筑木官网文档",
+      "read_scope": "已读正文；2025-11-29修订，本轮未实施对接",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W04",
+      "title": "筑木官网：垂直交叉板件自动开槽",
+      "location": "https://archiwood.cn/wiki/how_to_set_jc_c",
+      "kind": "筑木官网文档",
+      "read_scope": "子代理读到正文；2025-07-06修订；图中完整命名模板未提取",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W05",
+      "title": "少校：添加模块组件",
+      "location": "https://sketchuppro.cn/4565",
+      "kind": "原作者操作教程",
+      "read_scope": "已读正文；2025-08-29；快捷键与模块码不作本厂通用值",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W06",
+      "title": "少校：三门等宽与内空均分",
+      "location": "https://sketchuppro.cn/3208",
+      "kind": "原作者操作教程",
+      "read_scope": "已读正文；2025-02-08；示例板厚与公式非通用",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W07",
+      "title": "少校：主账号备份全局配置",
+      "location": "https://sketchuppro.cn/6245",
+      "kind": "原作者操作教程",
+      "read_scope": "已读正文；页面时间显示不一致，只记录本轮查阅日",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W08",
+      "title": "少校：全局参数不生效",
+      "location": "https://sketchuppro.cn/5421",
+      "kind": "原作者操作教程",
+      "read_scope": "已读正文；2025-12-06；案例诊断不能替代本机验证",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W09",
+      "title": "少校：前定位与后定位",
+      "location": "https://sketchuppro.cn/5395",
+      "kind": "原作者操作教程",
+      "read_scope": "已读正文；2025-12-01；坐标方向需实机复核",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W10",
+      "title": "少校：学习路径",
+      "location": "https://sketchuppro.cn/learningpath",
+      "kind": "教程目录",
+      "read_scope": "只核目录；含CSV、橱柜、圆弧、后台门板课程，未观看全部视频",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W11",
+      "title": "百隆中国：产品配置工具",
+      "location": "https://www.blum.com.cn/cn/zh/services/planning-construction-product-selection/product-configurator/",
+      "kind": "五金制造商说明",
+      "read_scope": "已读功能说明；未登录配置具体产品",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W12",
+      "title": "百隆中国：CAD/CAM数据服务",
+      "location": "https://www.blum.com.cn/cn/zh/services/industrial-production/cad-cam-dataservice/",
+      "kind": "五金制造商说明",
+      "read_scope": "已读正文；可用资料类型不证明本机筑木接口兼容",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W13",
+      "title": "海蒂诗中国：CAD下载",
+      "location": "https://www.hettich.com/zh-cn/%E6%9C%8D%E5%8A%A1/hettich-cad/cad-%E4%B8%8B%E8%BD%BD",
+      "kind": "五金制造商目录",
+      "read_scope": "已读分类和文件格式；未下载整套配件包",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W14",
+      "title": "SIMONSWERK：TECTUS系列",
+      "location": "https://www.simonswerk.com/en/product-brands/tectus",
+      "kind": "房门铰链制造商说明",
+      "read_scope": "已读A8/FVZ系列适用说明；未给项目指定货号",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W15",
+      "title": "EGGER：Laminates加工指南",
+      "location": "https://www.egger.com/get_download/5851b385-cd76-4356-aa0c-06a85323d1a7/Processing_instructions_Laminates.pdf",
+      "kind": "材料制造商技术文件",
+      "read_scope": "Rev06，2024-04-25；已读23–24页成型文字，截图读取失败，未据图估尺寸",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W16",
+      "title": "Häfele Home：Loox灯光系统",
+      "location": "https://www.hafelehome.com.au/pages/loox",
+      "kind": "五金制造商品牌站说明",
+      "read_scope": "已读系统说明；澳洲产品，不替代中国实际供货型号",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W17",
+      "title": "筑木官网：教程合集",
+      "location": "https://archiwood.cn/wiki/archiwoodarchinest",
+      "kind": "筑木官网目录",
+      "read_scope": "已读目录与跨平台发布说明；2025-06-29修订，未逐课观看",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W18",
+      "title": "B站：筑木新手画图流程",
+      "location": "https://www.bilibili.com/list/395998794?bvid=BV15W421c7RP&oid=1851643373",
+      "kind": "视频线索",
+      "read_scope": "搜索目录可见2024-03-08课程；本轮直开页面报错，未观看或转录",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W19",
+      "title": "筑木官网：添加全局默认参数",
+      "location": "https://archiwood.cn/wiki/how_to_add_default_pams",
+      "kind": "筑木官网历史文档",
+      "read_scope": "子代理已读正文；2023-01-02；明确新建/插入时作用",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W20",
+      "title": "筑木官网：快速插入门板",
+      "location": "https://archiwood.cn/wiki/how_to_install_doors",
+      "kind": "筑木官网文档",
+      "read_scope": "子代理已读正文；2025-11-28；方向和盖值输入需当前版验证",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W21",
+      "title": "少校：五金缓存更新",
+      "location": "https://sketchuppro.cn/3543",
+      "kind": "原作者操作教程",
+      "read_scope": "子代理已读正文；2025-03-16；清理重建只是排查路径",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W22",
+      "title": "少校：组框门板加工",
+      "location": "https://sketchuppro.cn/3541",
+      "kind": "原作者操作教程",
+      "read_scope": "子代理已读正文；2025-03-16；图中完整参数未核",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W23",
+      "title": "少校：更新报表与条码变化",
+      "location": "https://sketchuppro.cn/4868",
+      "kind": "原作者操作教程",
+      "read_scope": "子代理已读正文；2025-09-14；GUID不能理解为永不改变",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "W24",
+      "title": "筑木官网：v2报表",
+      "location": "https://archiwood.cn/wiki/how_to_use_v2_report",
+      "kind": "筑木官网历史文档",
+      "read_scope": "子代理已读正文；2022-10-11；未验证本机看板与报表设置",
+      "reviewed_at": "2026-11-03",
+      "availability": "publisher"
+    },
+    {
+      "id": "K12",
+      "title": "下单核对模板",
+      "location": "风格手册/下单核对模板.md",
+      "kind": "工作室核对模板",
+      "read_scope": "子代理已读正文；空白项不是已确认数据",
+      "reviewed_at": "2026-11-03",
+      "availability": "repository"
+    }
+  ],
+  "cards": [
+    {
+      "id": "ZM-001",
+      "title": "水槽柜结构与厂家例外",
+      "topic": "柜体",
+      "keywords": "水槽柜 橱柜 标准柜 背板 铝箔板 铝拉档 拉条 顶板",
+      "status": "有厂家图提取及单柜历史实测；当前项目匹配和加工未验收",
+      "sources": [
+        "K01",
+        "L01",
+        "L02"
+      ],
+      "file": "木作/13_筑木应用/ZM-001_水槽柜结构与厂家例外.md"
+    },
+    {
+      "id": "ZM-002",
+      "title": "快速分格与门板等宽",
+      "topic": "柜体与收纳",
+      "keywords": "快速设计 拾取内空 层板 中立板 内空均分 三门等宽 分格 收纳",
+      "status": "操作图文已读；本机对应步骤与变尺寸重算待验证",
+      "sources": [
+        "W05",
+        "W06",
+        "K03"
+      ],
+      "file": "木作/13_筑木应用/ZM-002_快速分格与门板等宽.md"
+    },
+    {
+      "id": "ZM-003",
+      "title": "门板方向、盖值、扣尺与门缝",
+      "topic": "门板",
+      "keywords": "门板 柜门 双饰面 油漆 盖值 扣尺 门缝 门厚 免拉手 方向",
+      "status": "有旧样柜参数与几何对照；新门型/当前项目仍待核",
+      "sources": [
+        "W20",
+        "K02",
+        "L05"
+      ],
+      "file": "木作/13_筑木应用/ZM-003_门板方向、盖值、扣尺与门缝.md"
+    },
+    {
+      "id": "ZM-004",
+      "title": "铰链、拉篮和衣杆怎样成为可复用配件",
+      "topic": "五金",
+      "keywords": "配件 五金 铰链 拉篮 衣杆 挂衣杆 复用 转换为五金配件 CAD 型号 产品库",
+      "status": "官网转换方法已读；通用配件包未建立，本机拉篮安装未验收",
+      "sources": [
+        "W02",
+        "W11",
+        "W12",
+        "W13",
+        "L02"
+      ],
+      "file": "木作/13_筑木应用/ZM-004_铰链、拉篮和衣杆怎样成为可复用配件.md"
+    },
+    {
+      "id": "ZM-005",
+      "title": "抽屉有效高度与五金更新",
+      "topic": "抽屉",
+      "keywords": "抽屉 抽盒 抽面 轨道 滑轨 反弹抽 暗抠手 托底轨 五金缓存",
+      "status": "有知识库经验与公开排查方法；具体型号/本机更新效果待验证",
+      "sources": [
+        "K04",
+        "W21",
+        "W11"
+      ],
+      "file": "木作/13_筑木应用/ZM-005_抽屉有效高度与五金更新.md"
+    },
+    {
+      "id": "ZM-006",
+      "title": "灯带、型材、驱动器与水电衔接",
+      "topic": "灯光",
+      "keywords": "灯带 灯光 灯槽 型材 驱动器 变压器 检修 电源 水电 衣杆灯",
+      "status": "分类已见、知识关系已整理；具体灯光系统与水电图待型号验证",
+      "sources": [
+        "K05",
+        "K06",
+        "W16",
+        "L04"
+      ],
+      "file": "木作/13_筑木应用/ZM-006_灯带、型材、驱动器与水电衔接.md"
+    },
+    {
+      "id": "ZM-007",
+      "title": "房门与隐形门的完成面和开启关系",
+      "topic": "房门",
+      "keywords": "房门 隐形门 门扇 门套 三维铰链 开启方向 门墙柜 TECTUS 饰面",
+      "status": "工厂门墙图有既有学习记录；具体门样及五金适配待实测",
+      "sources": [
+        "L03",
+        "K09",
+        "W14"
+      ],
+      "file": "木作/13_筑木应用/ZM-007_房门与隐形门的完成面和开启关系.md"
+    },
+    {
+      "id": "ZM-008",
+      "title": "护墙插片槽、干挂和收口",
+      "topic": "护墙",
+      "keywords": "护墙 护墙板 插片槽 干挂 子母槽 格栅 门缝 节点 插片",
+      "status": "可见菜单及图纸例子已关联；槽实体、安装节点和清单待核",
+      "sources": [
+        "K07",
+        "K11",
+        "L03",
+        "L04"
+      ],
+      "file": "木作/13_筑木应用/ZM-008_护墙插片槽、干挂和收口.md"
+    },
+    {
+      "id": "ZM-009",
+      "title": "圆弧先分材料和成型工艺",
+      "topic": "圆弧",
+      "keywords": "圆弧 弧形 免漆 油漆 烤漆 注胶 拉米诺 半径 拼缝 冷弯 热弯",
+      "status": "材料边界已补充；工厂圆弧实体与加工参数未验证",
+      "sources": [
+        "K08",
+        "L04",
+        "W15"
+      ],
+      "file": "木作/13_筑木应用/ZM-009_圆弧先分材料和成型工艺.md"
+    },
+    {
+      "id": "ZM-010",
+      "title": "全局默认、模块参数与版本",
+      "topic": "参数与复用",
+      "keywords": "全局参数 默认 参数 字段 版本 sfdk sfddwk hddk 开关 0 1 重算 备份 上传 下载",
+      "status": "字段语义与作用时点已有文献；当前工厂版逐项验证未完成",
+      "sources": [
+        "W01",
+        "W19",
+        "W07",
+        "W08",
+        "L05"
+      ],
+      "file": "木作/13_筑木应用/ZM-010_全局默认、模块参数与版本.md"
+    },
+    {
+      "id": "ZM-011",
+      "title": "报表、条码与工厂加工验收",
+      "topic": "工厂对接",
+      "keywords": "报表 清单 加工 数据 孔槽 条码 GUID 订单 预览 加载 v2 NC 设备 下单",
+      "status": "有公开验收路径；本机报表内容及工厂试加工仍未通过",
+      "sources": [
+        "L02",
+        "W24",
+        "W23",
+        "W03",
+        "K10",
+        "K12"
+      ],
+      "file": "木作/13_筑木应用/ZM-011_报表、条码与工厂加工验收.md"
+    },
+    {
+      "id": "ZM-012",
+      "title": "CSV批量建柜与后台复用边界",
+      "topic": "批量生成",
+      "keywords": "批量 CSV 导入 后台 自动生成 原生 柜体 复制 放置 模型 SU",
+      "status": "入口已见、后台几何复用有历史试验；原生批量尚未验收",
+      "sources": [
+        "L04",
+        "L05",
+        "L02",
+        "W10"
+      ],
+      "file": "木作/13_筑木应用/ZM-012_CSV批量建柜与后台复用边界.md"
+    },
+    {
+      "id": "ZM-013",
+      "title": "组框门的成品总成与开料构件",
+      "topic": "门板加工",
+      "keywords": "组框门 框料 芯板 成品门 自产 外协 采购 重复开料 门板",
+      "status": "有操作概念和核对链；当前厂库与样件未验证",
+      "sources": [
+        "W22",
+        "K10",
+        "K12"
+      ],
+      "file": "木作/13_筑木应用/ZM-013_组框门的成品总成与开料构件.md"
+    },
+    {
+      "id": "ZM-014",
+      "title": "交叉板开槽的层级、方向与余量",
+      "topic": "特殊工艺",
+      "keywords": "交叉板 十字板 酒格 开槽 jccs jcck JC 槽深 槽宽 余量",
+      "status": "官方正文语义已补；完整操作与工厂试样未验证",
+      "sources": [
+        "W04",
+        "W01",
+        "K01"
+      ],
+      "file": "木作/13_筑木应用/ZM-014_交叉板开槽的层级、方向与余量.md"
+    }
+  ]
+}

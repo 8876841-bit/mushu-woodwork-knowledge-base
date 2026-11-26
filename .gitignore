@@ -1,0 +1,21 @@
+# Local projects, working data and credentials
+.env
+.env.*
+.obsidian/
+_rag/
+index/
+_extracted/
+__pycache__/
+.DS_Store
+desktop.ini
+*.skp
+*.skb
+*.dwg
+*.dxf
+*.bak
+*.tmp
+*.zip
+*.7z
+*.pem
+*.pfx
+*.key
